@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Coding Challenge</string>
+    <string name="snack_bar_empty_message">There is no content to show</string>
+    <string name="transition_avatar_border" translatable="false">avatar_border</string>
+    <string name="transition_card" translatable="false">card</string>
+    <string name="just_now">Now</string>
+    <string name="a_min_ago">Minutes ago</string>
+    <string name="a_hour_ago">An hour ago</string>
+    <string name="days_ago">Days ago</string>
+    <string name="week_ago">A week ago</string>
+    <string name="weeks_ago">Weeks ago</string>
+    <string name="minutes_ago">Minutes ago</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="text_no_author">Not author</string>
+    <string name="text_not_date">Not date</string>
+    <string name="summary">Summary</string>
+</resources>

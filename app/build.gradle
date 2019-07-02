@@ -1,0 +1,102 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    flavorDimensions "environment"
+    def LONG = "long"
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration["androidCompileSdkVersion"]
+    buildToolsVersion globalConfiguration["androidBuildToolsVersion"]
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId globalConfiguration["androidApplicationId"]
+        minSdkVersion globalConfiguration["androidMinSdkVersion"]
+        targetSdkVersion globalConfiguration["androidTargetSdkVersion"]
+        versionCode globalConfiguration["androidVersionCode"]
+        versionName globalConfiguration["androidVersionName"]
+        testInstrumentationRunner globalConfiguration["testInstrumentationRunner"]
+        buildConfigField LONG, "READ_TIMEOUT", "60"
+        buildConfigField LONG, "CONNECT_TIMEOUT", "60"
+    }
+
+    productFlavors {
+        develop {
+            dimension "environment"
+            versionNameSuffix "-demo"
+            applicationIdSuffix ".develop"
+            buildConfigField "String", "WS1", "\"$url_base_dev\""
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+}
+
+dependencies {
+    implementation project(":serviceslibrary")
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    def generalDependencies = rootProject.ext.generalDependencies
+    def generalTestDependencies = rootProject.ext.generalTestDependencies
+
+    implementation generalDependencies.constraintLayout,
+            generalDependencies.appcompat,
+            generalDependencies.cardView,
+            generalDependencies.kotlin,
+            generalDependencies.materialComponents,
+            generalDependencies.shimmer,
+            generalDependencies.dagger,
+            generalDependencies.arch,
+            generalDependencies.daggerAndroid,
+            generalDependencies.rxAndroid,
+            generalDependencies.rxJava,
+            generalDependencies.paginationLib,
+            generalDependencies.daggerSupport,
+            generalDependencies.lottie,
+            generalDependencies.room,
+            generalDependencies.roomRxJava,
+            generalDependencies.testing,
+            generalDependencies.volley
+
+    kapt generalDependencies.daggerCompiler
+    kapt generalDependencies.daggerProcessor
+    kapt generalDependencies.roomCompiler
+
+    androidTestImplementation generalTestDependencies.junit,
+            generalTestDependencies.rules,
+            generalTestDependencies.assertJCore,
+            generalTestDependencies.mockitoAndroid
+
+    testImplementation generalTestDependencies.mockitoCore,
+            generalTestDependencies.espressoCore,
+            generalTestDependencies.mockitoKotlinVersion,
+            generalTestDependencies.inline,
+            generalTestDependencies.androidTestRunner,
+            generalTestDependencies.jUniTest,
+            generalTestDependencies.roboElectric,
+            generalTestDependencies.rules,
+            generalTestDependencies.assertJCore,
+            generalTestDependencies.mockitoAndroid,
+            generalTestDependencies.junit
+
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    apply from: "$rootDir/tools/ktlint.gradle"
+}

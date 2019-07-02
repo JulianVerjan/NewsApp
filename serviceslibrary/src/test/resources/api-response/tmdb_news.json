@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": null,
+      "title": "Live: Hong Kong protesters clash with police over China extradition bill - CNN",
+      "description": "Thousands are marching in Hong Kong for the annual July 1 pro-democracy protest. Here's the latest.",
+      "url": "https://www.cnn.com/asia/live-news/hong-kong-july-1-protests-intl-hnk/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190630200734-03-hong-kong-protests-0701-super-tease.jpg",
+      "publishedAt": "2019-07-01T00:27:00Z",
+      "content": "The story of Hong Kong's controversial extradition bill -- and the subsequent protests -- all began with a gruesome murder. Here's how the tale unfolded:\r\nA murder on vacation: In February 2018, a Hong Kong couple were vacationing in Taiwan. While they were t… [+1231 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Espn.com"
+      },
+      "author": null,
+      "title": "Sources - Nets to sign Durant, Kyrie and DeAndre - ESPN",
+      "description": "The Nets are making a clean sweep in free agency. Kevin Durant has announced his move, and league sources told ESPN that Kyrie Irving and DeAndre Jordan will join him in Brooklyn.",
+      "url": "https://www.espn.com/nba/story/_/id/27091242/sources-nets-sign-durant-kyrie-deandre",
+      "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0630%2Fr564149_768x432_16%2D9.jpg",
+      "publishedAt": "2019-07-01T00:11:44Z",
+      "content": "Free-agent All-NBA star Kevin Durant plans to sign a four-year, $164 million contract to play for the Brooklyn Nets, he confirmed Sunday.\r\nDurant will join free agents Kyrie Irving and DeAndre Jordan, who also plan to sign with the franchise, league sources t… [+7667 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Tom McKay",
+      "title": "Apple Discovers 'Power' Issue With Logic Boards in Some 2018 MacBook Airs, Will Offer Free Repairs - Gizmodo",
+      "description": "Apple has identified a serious issue with a “very small number” of 2018 MacBook Air laptops that requires the replacement of the main logic board, 9to5Mac reported on Sunday, citing internal documents from the company.",
+      "url": "https://gizmodo.com/apple-discovers-power-issue-with-logic-boards-in-some-2-1835996820",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/s--XFI6azsN--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/beffwlfvc6g9pc6xjjdw.jpg",
+      "publishedAt": "2019-07-01T00:10:00Z",
+      "content": "Apple has identified a serious issue with a very small number of 2018 MacBook Air laptops that requires the replacement of the main logic board, 9to5Mac reported on Sunday, citing internal documents from the company.\r\nAccording to 9to5Mac, the issue has been … [+1678 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bbc.com"
+      },
+      "author": "Richard Gray",
+      "title": "Future - How to rehabilitate old oil supertankers - BBC News",
+      "description": "The enormous ships that ferry crude oil around the world embody the fossil fuel era and its legacy of pollution. But can they be transformed to become good for the environment?",
+      "url": "http://www.bbc.com/future/story/20190627-turning-oil-supertankers-into-green-power-stations",
+      "urlToImage": "http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/7f/dy/p07fdytc.jpg",
+      "publishedAt": "2019-07-01T00:08:50Z",
+      "content": "As you read this, around 10,420 giants are heaving their way across the world’s oceans. Their enormous metal bodies lumber onwards in spite of inclement weather and rough seas.\r\nIn their bowels, these beasts are carrying 3.8 billion barrels of crude oil betwe… [+13342 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Associated Press",
+      "title": "Cuomo signs legislation outlawing 'gay panic' defense in NY - Fox News",
+      "description": "New York Gov. Andrew Cuomo has signed legislation that would bar people who attack or kill a gay person from arguing they panicked over their victim's sexuality.",
+      "url": "https://www.foxnews.com/politics/andrew-cuomo-gay-panic-defense-legislation-new-york",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/06/AP19181671386116.jpg",
+      "publishedAt": "2019-06-30T23:47:07Z",
+      "content": "New York Gov. Andrew Cuomo has signed legislation that would bar people who attack or kill a gay person from arguing they panicked over their victim's sexuality.\r\nThe Democrat signed the bill on Sunday in Manhattan, where he was taking part in the city's LGBT… [+419 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Fox8.com"
+      },
+      "author": "https://www.facebook.com/Fox8NewsCleveland",
+      "title": "Family says goodbye to wife of ‘Dog the Bounty Hunter’ - WJW FOX 8 News Cleveland",
+      "description": "HONOLULU — About 500 people watched from the shore and the waters off a beach as family and friends held a memorial service to say goodbye to reality-TV star Beth Chapman, who rose to fame as the wife of \"Dog the Bounty Hunter,\" the Honolulu Star Advertiser r…",
+      "url": "https://fox8.com/2019/06/30/family-says-goodbye-to-wife-of-dog-the-bounty-hunter/",
+      "urlToImage": "https://localtvwjw.files.wordpress.com/2019/06/s111069635.jpg?quality=85&strip=all&w=1200",
+      "publishedAt": "2019-06-30T23:41:00Z",
+      "content": "HONOLULU About 500 people watched from the shore and the waters off a beach as family and friends held a memorial service to say goodbye to reality-TV star Beth Chapman, who rose to fame as the wife of \"Dog the Bounty Hunter,\" the Honolulu Star Advertiser rep… [+553 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theathletic.com"
+      },
+      "author": "Sean Gentille",
+      "title": "Trading Phil Kessel wasn't Jim Rutherford's biggest mistake - The Athletic",
+      "description": "The Penguins' decision to trade Phil Kessel were rooted in a decision made more than one year ago.",
+      "url": "https://theathletic.com/1055346/2019/06/30/trading-phil-kessel-wasnt-jim-rutherfords-biggest-mistake/",
+      "urlToImage": "https://cdn.theathletic.com/app/uploads/2019/06/30192321/GettyImages-1070737924-1024x708.jpg",
+      "publishedAt": "2019-06-30T22:59:06Z",
+      "content": "Three years and 364 days ago, the Penguins traded for Phil Kessel. Less than 24 hours ago, they sent him away. It might not have been an era, but it’s over and for all everyone has said (and will say) about it (and him), he did what he was supposed to do. He … [+695 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Latimes.com"
+      },
+      "author": "Tania Ganguli, Broderick Turner",
+      "title": "Lakers reach out to Kawhi Leonard, who already talked to Magic Johnson - Los Angeles Times",
+      "description": "Kawhi Leonard is the most coveted free agent this summer and the Lakers have reach out to him. Leonard and his uncle have already spoken to Magic Johnson.",
+      "url": "https://www.latimes.com/sports/lakers/la-sp-lakers-free-agency-kawhi-leonard-20190630-story.html",
+      "urlToImage": "https://www.latimes.com/resizer/4YisC8WU0TFfuvVtikth3kX8kgc=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/OB7DGEMLANANTE6UM5GRQKCK5Y.jpg",
+      "publishedAt": "2019-06-30T22:55:00Z",
+      "content": "Teams around the league began filling out their rosters Sunday as free agency opened at 3 p.m. PDT, but the Lakers waited.\r\nWith a shot at Kawhi Leonard, their entire plan for this summer hinges on his decision. They cant move until he does.\r\nMagic Johnson sp… [+1088 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo.com"
+      },
+      "author": null,
+      "title": "Sophie Turner's White Wedding Gown Is Absolutely Gorgeous - Yahoo Lifestyle",
+      "description": "Sophie opted for a *very* traditional dress.",
+      "url": "https://www.yahoo.com/lifestyle/sophie-turners-white-wedding-gown-224600999.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/CU2x5gPZU5ZPwmTkE2Gd7A--~B/aD04Mjg7dz0xNjUzO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/marie_claire_447/c57160f6f42de15d11261a94d02c5b38",
+      "publishedAt": "2019-06-30T22:46:00Z",
+      "content": "From Marie Claire\r\nThe couple wed earlier this year in a surprise ceremony in Las Vegas, at the at the Chapel L'Amour, inside the A Little White Wedding Chapel. \r\nSophie wore a chic BEVZA jumpsuit for her wedding in Vegas, but opted for a much more traditiona… [+1262 chars]"
+    },
+    {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "Bouncing Back From Crackdown, Protesters Surge Through Sudan’s Streets - The New York Times",
+      "description": "Despite an internet ban and threats of violence, protesters massed in a quest for civilian rule, regaining momentum after scores of deaths.",
+      "url": "https://www.nytimes.com/2019/06/30/world/africa/sudan-protest-hamdan.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/07/01/world/30sudan/30sudan-facebookJumbo.jpg",
+      "publishedAt": "2019-06-30T22:22:13Z",
+      "content": "We want to get things under control, he said.\r\nWitnesses and medical organizations in Khartoum could not corroborate those assertions.\r\nA former camel trader and militia commander, General Hamdan has emerged as the most powerful figure in Sudan, even if he is… [+1320 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Appleinsider.com"
+      },
+      "author": "AppleInsider",
+      "title": "The worst Apple designs by Jony Ive, according to the AppleInsider staff - AppleInsider",
+      "description": "While he's often lauded, not everything Apple has cranked out under Jony Ive's design lead has been spectacular. We've been on the Apple beat nearly as long as Ive has, and we have some thoughts on the flops from Ive's design studio.",
+      "url": "https://appleinsider.com/articles/19/06/30/the-worst-apple-designs-by-jony-ive-according-to-the-appleinsider-staff",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/31750-53645-ive-condenast-xl.jpg",
+      "publishedAt": "2019-06-30T22:08:27Z",
+      "content": "While he's often lauded, not everything Apple has cranked out under Jony Ive's design lead has been spectacular. We've been on the Apple beat nearly as long as Ive has, and we have some thoughts on the flops from Ive's design studio.Malcolm Owen — Mighty Mous… [+5720 chars]"
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "STEVEN OVERLY",
+      "title": "Facebook unveils plans to fight misinformation about census - POLITICO",
+      "description": "The company said it will release a policy this fall that prohibits users from misrepresenting &quot;census requirements, methods or logistics.&quot;",
+      "url": "https://www.politico.com/story/2019/06/30/facebook-misinformation-census-1391028",
+      "urlToImage": "https://static.politico.com/0d/8e/d6c6bdf34b979e5b04660f9e9e4f/190630-neil-potts-ap-773.jpg",
+      "publishedAt": "2019-06-30T22:02:00Z",
+      "content": "We expect that people will understand our rules ... and they will try to alter their activity to subvert our rules,\" Neil Potts, Facebooks public policy director, told POLITICO. | Zach Gibson/Getty Images\r\nFacebook on Sunday announced it's developing a plan t… [+5243 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tvline.com"
+      },
+      "author": "Michael Ausiello, Michael Ausiello",
+      "title": "Sandman TV Show From Neil Gaiman Nearing Series Order at Netflix - TVLine",
+      "description": "At long last, Hollywood is ready to pound some Sandman. Netflix is nearing a deal with Warner Bros. TV to adapt what is arguably considered to be Neil Gaiman’s most beloved comic book opus, T…",
+      "url": "https://tvline.com/2019/06/30/the-sandman-series-netflix-neil-gaiman/",
+      "urlToImage": "https://pmctvline2.files.wordpress.com/2019/06/the-sandman.png?w=640",
+      "publishedAt": "2019-06-30T22:00:00Z",
+      "content": "At long last, Hollywood is ready to pound some Sandman.\r\nNetflix is nearing a deal with Warner Bros. TV to adapt what is arguably considered to be Neil Gaiman’s most beloved comic book opus, TVLine has learned.\r\nThe DC Comics property has been mired in develo… [+1474 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": null,
+      "title": "Tucker Carlson says Trump 'dominated' Kim as 'wheezing' North Korean dictator struggled - Fox News",
+      "description": "Fox News host Tucker Carlson witnessed the historic meeting between President Trump and North Korean dictator Kim Jong-un Sunday at the DMZ, and called into \"Fox & Friends\" to share his thoughts.",
+      "url": "https://www.foxnews.com/politics/trump-kim-north-korea-dominated-wheezing-dmz-tucker-carlson",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/06/Trump-Kim_FOX.jpg",
+      "publishedAt": "2019-06-30T21:30:21Z",
+      "content": "Fox News host Tucker Carlson witnessed the historic meeting between President Trump and North Korean dictator Kim Jong Un at the Demilitarized Zone (DMZ) on Sunday, and shared his thoughts on \"Fox &amp; Friends.\"\r\nCarlson said Kim was \"wheezing\" in an unhealt… [+4254 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Npr.org"
+      },
+      "author": null,
+      "title": "Former NASA Flight Director Gene Kranz Restores Mission Control in Houston - NPR",
+      "description": "Kranz led the earliest missions to the moon, including Apollo 11 and Apollo 13, and says he wants the room to inspire American students to study science and technology.",
+      "url": "https://www.npr.org/2019/06/30/737327895/former-nasa-flight-director-gene-kranz-restores-mission-control-in-houston",
+      "urlToImage": "https://media.npr.org/assets/img/2019/06/29/ap_19171656714538_wide-ce222e38cb7bf728e63e63685371af526da83095.jpg?s=1400",
+      "publishedAt": "2019-06-30T20:09:00Z",
+      "content": "Gene Kranz stands behind the console at Mission Control in Houston where he worked during the Gemini and Apollo missions.\r\nMichael Wyke/AP\r\nGene Kranz may be the most famous flight director in NASA's history. He directed the actual landing portion of the firs… [+2754 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Kate Sullivan and Devan Cole, CNN",
+      "title": "Six big moments from Donald Trump's historic visit to North Korea - CNN",
+      "description": "President Donald Trump made history Sunday when he became the first sitting US president to enter North Korea.",
+      "url": "https://www.cnn.com/2019/06/30/politics/north-korea-kim-jong-un-donald-trump-meeting-moments/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190630053806-trump-dmz-28-super-tease.jpg",
+      "publishedAt": "2019-06-30T20:07:00Z",
+      "content": "Washington (CNN)President Donald Trump made history Sunday when he became the first sitting US president to enter North Korea. \r\nDuring the brief visit to the hermit nation, which came after the end of the G20 summit in Japan, Trump shook hands with North Kor… [+4650 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "12up.com"
+      },
+      "author": "Ryan Flores",
+      "title": "Lakers Reportedly Making Aggressive Push for Jimmy Butler - 12up",
+      "description": "",
+      "url": "https://www.12up.com/posts/lakers-reportedly-making-aggressive-push-for-jimmy-butler-01demxbc1xf5",
+      "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,h_630,f_auto,q_auto,g_auto/shape/cover/sport/Toronto-Raptors-v-Philadelphia-76ers---Game-Six-06c8fe301d18e815337e78628e96938d.jpg",
+      "publishedAt": "2019-06-30T20:00:23Z",
+      "content": "NBA free agency is still a few hours away, and it's already getting wild. \r\nOn Sunday, Philadelphia 76ers guard Jimmy Butler plans to meet with Miami Heat officials at 6:01 p.m. ET on Sunday. However, he's drawing a plethora of interest around the league, wit… [+1030 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nypost.com"
+      },
+      "author": "Mark Moore",
+      "title": "AOC slams Piers Morgan for slight over bartending career - New York Post ",
+      "description": "​”Could be worse​ ​… Ivanka could have been a bar-tender 18 months ago​,” Morgan, the winner of “The Celebrity Apprentice” in 2008, wrote Sunday in response to Ocasio-…",
+      "url": "https://nypost.com/2019/06/30/aoc-slams-piers-morgan-for-slight-over-bartending-career/",
+      "urlToImage": "https://thenypost.files.wordpress.com/2019/06/aoc-morgan.jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2019-06-30T19:43:00Z",
+      "content": "Rep. Alexandria Ocasio-Cortez slapped back at British journalist Piers Morgan after he mocked the New York Democrat’s bartending past while defending Ivanka Trump for traveling to the G-20 summit.\r\nMorgan responded to a tweet Ocasio-Cortez posted late Saturda… [+1456 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nbc-2.com"
+      },
+      "author": null,
+      "title": "CDC warns fecal parasite in pools on the rise - NBC2 News",
+      "description": "More than 7,000 people fell ill from",
+      "url": "https://www.nbc-2.com/story/40725942/cdc-warns-fecal-parasite-in-pools-on-the-rise",
+      "urlToImage": "https://WBBH.images.worldnow.com/images/18554460_G.jpeg?lastEditedDate=1561903650000",
+      "publishedAt": "2019-06-30T19:40:00Z",
+      "content": "(CNN) -- Health officials are asking Americans to take precautions over reports that \"crypto,\" a fecal parasite that can be transmitted via swimming pools, is on the rise.\r\nThe parasite's full name is cryptosporidium. It causes cryptosporidiosis, which can le… [+3067 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Macrumors.com"
+      },
+      "author": "Tim Hardwick",
+      "title": "OpenID Foundation Claims 'Sign In with Apple' Could Expose Users to Security and Privacy Risks - Mac Rumors",
+      "description": "At WWDC 2019 earlier this month, Apple announced Sign In with Apple, a new privacy-focused login feature that will allow macOS Catalina and iOS 13...",
+      "url": "https://www.macrumors.com/2019/06/30/openid-claims-sign-in-with-apple-privacy-risk/",
+      "urlToImage": "https://cdn.macrumors.com/article-new/2019/06/openid-r-logo-900x360.png?retina",
+      "publishedAt": "2019-06-30T19:14:00Z",
+      "content": "At WWDC 2019 earlier this month, Apple announced Sign In with Apple, a new privacy-focused login feature that will allow macOS Catalina and iOS 13 users to sign into third-party apps and websites using their Apple ID. \r\nThe feature has been largely welcomed a… [+2193 chars]"
+    }
+  ]
+}

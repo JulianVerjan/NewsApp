@@ -1,0 +1,75 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration["androidCompileSdkVersion"]
+    buildToolsVersion globalConfiguration["androidBuildToolsVersion"]
+
+    defaultConfig {
+        minSdkVersion globalConfiguration["androidMinSdkVersion"]
+        targetSdkVersion globalConfiguration["androidTargetSdkVersion"]
+        versionCode globalConfiguration["androidVersionCode"]
+        versionName globalConfiguration["androidVersionName"]
+        testInstrumentationRunner globalConfiguration["testInstrumentationRunner"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    def generalDependencies = rootProject.ext.generalDependencies
+    def generalTestDependencies = rootProject.ext.generalTestDependencies
+    // Kotlin.
+    api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+
+    api generalDependencies.rxJava
+
+    implementation generalDependencies.gson,
+            generalDependencies.retrofitAdapter,
+            generalDependencies.dagger,
+            generalDependencies.arch,
+            generalDependencies.daggerAndroid,
+            generalDependencies.rxAndroid,
+            generalDependencies.rxJava,
+            generalDependencies.daggerSupport,
+            generalDependencies.okHttp3
+
+    kapt generalDependencies.daggerCompiler
+    kapt generalDependencies.daggerProcessor
+
+    api generalDependencies.retrofit
+    api generalDependencies.retrofitGson
+    api generalDependencies.loggingInterceptor
+
+    implementation generalDependencies.testing
+
+    testImplementation generalTestDependencies.mockitoCore,
+            generalTestDependencies.espressoCore,
+            generalTestDependencies.mockitoKotlinVersion,
+            generalTestDependencies.inline,
+            generalTestDependencies.androidTestRunner,
+            generalTestDependencies.jUniTest,
+            generalTestDependencies.roboElectric,
+            generalTestDependencies.rules,
+            generalTestDependencies.assertJCore,
+            generalTestDependencies.mockitoAndroid,
+            generalTestDependencies.junit,
+            generalTestDependencies.mockServer
+}

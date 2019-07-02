@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+        android:id="@+id/layoutNewsCard"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:orientation="vertical"
+        app:cardElevation="@dimen/news_card_elevation">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/newsImage"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/news_image_height"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_no_image"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/newsTitle"
+                style="@style/mainFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@color/secondaryText"
+                android:textStyle="bold"
+                android:padding="@dimen/news_card_padding"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/newsOwner"
+                style="@style/secondaryFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="@color/colorAccent"
+                android:padding="@dimen/news_card_padding"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/newsDate"
+                style="@style/secondaryFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="@color/colorAccent"
+                android:padding="@dimen/news_card_padding"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

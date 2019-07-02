@@ -1,0 +1,99 @@
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+ext {
+    //Android
+    androidBuildToolsVersion = '28.0.3'
+    androidMinSdkVersion = 16
+    androidTargetSdkVersion = 28
+    androidCompileSdkVersion = 28
+    renderScriptTargetApiVersion = 21
+    rederScriptEnabledFlag = true
+
+    //Libraries
+    appSupportVersion = '28.0.0'
+    kotlinVersion = kotlin_version
+    materialVersion = '1.0.0'
+    shimmerVersion = '0.3.0'
+    cardViewVersion = '1.0.0'
+    appcompatVersion = '1.0.2'
+    gsonVersion = '2.8.2'
+    okHttpVersion = '3.9.0'
+    retrofitVersion = '2.4.0'
+    retrofitGsonVersion = '2.4.0'
+    constraintLayoutVersion = '2.0.0-alpha3'
+    daggerVersion = '2.17'
+    archVersion = '1.1.1'
+    architecture = '1.1.1'
+    anotationsVersion = '1.1.0'
+    rxAndroidVersion = '2.1.1'
+    rxJavaVersion = '2.2.8'
+    paginationLibVersion = '2.1.0'
+    lottieVersion = '2.8.0'
+    arch_persistence = "2.1.0"
+    volleyVersion = "1.1.0"
+
+    //Testing
+    jUnitVersion = '4.12'
+    testingSupportLibVersion = '1.1.0'
+    mockitoVersion = '2.23.0'
+    mockitoKotlin = '2.0.0'
+    espressoCoreVersion = '3.2.0'
+    unitTestVersion = '1.1.1'
+    assertj_core = "3.10.0"
+    mockitoAndroidVersion = "2.24.5"
+    roboVersion = "4.1"
+    mockServerVersion = "3.11.0"
+
+    generalDependencies = [
+            kotlin            : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${kotlinVersion}",
+            appcompat         : "androidx.appcompat:appcompat:${appcompatVersion}",
+            materialComponents: "com.google.android.material:material:${materialVersion}",
+            shimmer           : "com.facebook.shimmer:shimmer:${shimmerVersion}",
+            cardView          : "androidx.cardview:cardview:${cardViewVersion}",
+            constraintLayout  : "androidx.constraintlayout:constraintlayout:${constraintLayoutVersion}",
+            appSupport        : "com.android.support:appcompat-v7:${appSupportVersion}",
+            gson              : "com.google.code.gson:gson:${gsonVersion}",
+            retrofit          : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitGson      : "com.squareup.retrofit2:converter-gson:${retrofitGsonVersion}",
+            retrofitAdapter   : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+            dagger            : "com.google.dagger:dagger:${daggerVersion}",
+            daggerCompiler    : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            daggerAndroid     : "com.google.dagger:dagger-android:${daggerVersion}",
+            daggerSupport     : "com.google.dagger:dagger-android-support:${daggerVersion}",
+            daggerProcessor   : "com.google.dagger:dagger-android-processor:${daggerVersion}",
+            arch              : "android.arch.lifecycle:extensions:${archVersion}",
+            testing           : "android.arch.core:core-testing:${architecture}",
+            anotations        : "androidx.annotation:annotation:${anotationsVersion}",
+            rxAndroid         : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            rxJava            : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            paginationLib     : "androidx.paging:paging-runtime-ktx:${paginationLibVersion}",
+            lottie            : "com.airbnb.android:lottie:${lottieVersion}",
+            okHttp3           : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            loggingInterceptor: "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            room              : "androidx.room:room-runtime:${arch_persistence}",
+            roomCompiler      : "androidx.room:room-compiler:${arch_persistence}",
+            roomRxJava        : "androidx.room:room-rxjava2:${arch_persistence}",
+            volley            : "com.android.volley:volley:${volleyVersion}"
+    ]
+
+    generalTestDependencies = [
+            junit               : "junit:junit:${jUnitVersion}",
+            rules               : "androidx.test:rules:${testingSupportLibVersion}",
+            androidTestRunner   : "androidx.test:runner:${testingSupportLibVersion}",
+            mockitoCore         : "org.mockito:mockito-core:${mockitoVersion}",
+            inline              : "org.mockito:mockito-inline:${mockitoVersion}",
+            mockitoKotlinVersion: "com.nhaarman.mockitokotlin2:mockito-kotlin:${mockitoKotlin}",
+            espressoCore        : "androidx.test.espresso:espresso-core:${espressoCoreVersion}",
+            jUniTest            : "androidx.test.ext:junit:${unitTestVersion}",
+            assertJCore         : "org.assertj:assertj-core:${assertj_core}",
+            mockitoAndroid      : "org.mockito:mockito-android:${mockitoAndroidVersion}",
+            roboElectric        : "org.robolectric:robolectric:${roboVersion}",
+            mockServer          : "com.squareup.okhttp3:mockwebserver:${mockServerVersion}"
+
+    ]
+}
